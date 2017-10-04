@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import '../styles/resultcontent.sass';
 
 const ResultContent = () => {
@@ -18,7 +19,7 @@ const ResultContent = () => {
 
     return (
         <section className="container resultcontent">
-            <a href="/" className="search">Search</a>
+            <Link to="/search" className="search">Search</Link>
             <div className="left-side">
                 <img className="film-poster" src={film.poster} alt="" />
             </div>

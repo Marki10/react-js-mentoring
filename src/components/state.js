@@ -1,17 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../styles/state.sass';
 
-const State = () => {
-    return (
-        <section className="container state">
+class State extends Component {
+    constructor (props) {
+        super(props);
+
+        this.state = {
+            sortBy: "releasedate"
+        }
+
+        this.handleSortBy = this.handleSortBy.bind(this);
+    }
+
+    handleSortBy(event) {
+        this.setState({sortBy: event.target.value});
+    }
+
+    render() {
+        return (
+            <section className="container state">
                 <div className="left-side">{"7"} movies found</div>
                 <div className="right-side">
                     <div className="item">Sort by</div>
-                    <div className="item">release date</div>
-                    <div className="item">rating</div>
+                    <button className="item" onClick={this.handleSortBy} value="releasedate">release date</button>
+                    <button className="item" onClick={this.handleSortBy} value="rating">rating</button>
                 </div>
-        </section>
-    );
+            </section>
+        );
+    }
 }
         
 export default State;
