@@ -1,0 +1,82 @@
+export const movies = [
+    {
+        "unit":883,
+        "show_id":70299043,
+        "show_title":"Attack on Titan",
+        "release_year":"2013",
+        "rating":"4.6",
+        "category":"Anime",
+        "show_cast":"Yuki Kaji, Yui Ishikawa, Marina Inoue, Daisuke Ono, Hiro Shimono, Hiroshi Kamiya, Keiji Fujiwara, Kish\u00f4 Taniyama, Romi Park, Ryota Ohsaka",
+        "director":"",
+        "summary":"For over a century, people have been living behind barricades to block out the giant Titans that threaten to destroy the human race. When a Titan destroys his hometown, young Eren Yeager becomes determined to fight back.",
+        "poster":"http://cdn-2.nflximg.com/en_us/boxshots/ghd/70153391.jpg",
+        "mediatype":1,
+        "runtime":"24 min"
+    },
+    {
+        "unit":6596,
+        "show_id":70153391,
+        "show_title":"The Boondocks",
+        "release_year":"2005",
+        "rating":"4",
+        "category":"Comedies\n",
+        "show_cast":"Regina King, John Witherspoon, Cedric Yarbrough, Gary Anthony Williams, Jill Talley, Gabby Soleil",
+        "director":"",
+        "summary":"Based on the comic strip by Aaron McGruder, this satirical animated series follows the socially conscious misadventures of Huey Freeman, a preternaturally smart 10-year-old who relocates from inner-city Chicago to the suburbs.",
+        "poster":"http://cdn-2.nflximg.com/en_us/boxshots/ghd/70153391.jpg",
+        "mediatype":1
+    },
+    {
+        "unit":6596,
+        "show_id":70153391,
+        "show_title":"The Boondocks",
+        "release_year":"2005",
+        "rating":"4",
+        "category":"Comedies\n",
+        "show_cast":"Regina King, John Witherspoon, Cedric Yarbrough, Gary Anthony Williams, Jill Talley, Gabby Soleil",
+        "director":"",
+        "summary":"Based on the comic strip by Aaron McGruder, this satirical animated series follows the socially conscious misadventures of Huey Freeman, a preternaturally smart 10-year-old who relocates from inner-city Chicago to the suburbs.",
+        "poster":"http://cdn-2.nflximg.com/en_us/boxshots/ghd/70153391.jpg",
+        "mediatype":1
+    },
+    {
+        "unit":883,
+        "show_id":70299043,
+        "show_title":"Attack on Titan",
+        "release_year":"2013",
+        "rating":"4.6",
+        "category":"Anime",
+        "show_cast":"Yuki Kaji, Yui Ishikawa, Marina Inoue, Daisuke Ono, Hiro Shimono, Hiroshi Kamiya, Keiji Fujiwara, Kish\u00f4 Taniyama, Romi Park, Ryota Ohsaka",
+        "director":"",
+        "summary":"For over a century, people have been living behind barricades to block out the giant Titans that threaten to destroy the human race. When a Titan destroys his hometown, young Eren Yeager becomes determined to fight back.",
+        "poster":"http://cdn-2.nflximg.com/en_us/boxshots/ghd/70153391.jpg",
+        "mediatype":1,
+        "runtime":"24 min"
+    },
+    {
+        "unit":6596,
+        "show_id":70153391,
+        "show_title":"The Boondocks",
+        "release_year":"2005",
+        "rating":"4",
+        "category":"Comedies\n",
+        "show_cast":"Regina King, John Witherspoon, Cedric Yarbrough, Gary Anthony Williams, Jill Talley, Gabby Soleil",
+        "director":"",
+        "summary":"Based on the comic strip by Aaron McGruder, this satirical animated series follows the socially conscious misadventures of Huey Freeman, a preternaturally smart 10-year-old who relocates from inner-city Chicago to the suburbs.",
+        "poster":"http://cdn-2.nflximg.com/en_us/boxshots/ghd/70153391.jpg",
+        "mediatype":1
+    },
+    {
+        "unit":6596,
+        "show_id":70153391,
+        "show_title":"The Boondocks",
+        "release_year":"2005",
+        "rating":"4",
+        "category":"Comedies\n",
+        "show_cast":"Regina King, John Witherspoon, Cedric Yarbrough, Gary Anthony Williams, Jill Talley, Gabby Soleil",
+        "director":"",
+        "summary":"Based on the comic strip by Aaron McGruder, this satirical animated series follows the socially conscious misadventures of Huey Freeman, a preternaturally smart 10-year-old who relocates from inner-city Chicago to the suburbs.",
+        "poster":"http://cdn-2.nflximg.com/en_us/boxshots/ghd/70153391.jpg",
+        "mediatype":1
+    }
+];
