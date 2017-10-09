@@ -1,13 +1,17 @@
 import React from 'react';
-import State from './state';
+import Filter from './filter';
 import Film from './film';
+import NotFound from './notfound';
 import '../styles/filmslist.sass';
 
-const FilmsList = ({films}) => {
+const FilmsList = ({films, sortby}) => {
+
+    if(films === undefined) return <NotFound/>;
+
     return (
         <section className="container filmslist">
-            <State />
-            <Film films={films}/>
+            <Filter lenght={films.length}/>
+            <Film films={films} sortby={sortby}/>
         </section>
     );
 }

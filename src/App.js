@@ -1,13 +1,14 @@
 // Core
 import React, { Component } from 'react';
+import { connect } from "react-redux";
 
 // Components
 import Header from './components/header';
 import FilmsList from './components/filmslist';
 import Footer from './components/footer';
 
-// Data
-import { movies } from './components/storage/data';
+// Actions
+import { setSortBy, getMovies } from './components/storage/actions';
 
 // Sass / Css
 import './App.sass';
@@ -15,21 +16,35 @@ import './App.sass';
 class App extends Component {
     constructor (props) {
         super(props);
-    
-        this.films = movies;
-
-        this.state = { };
     }
     
     render() {
         return (
             <div className="App">
-                <Header films={this.films}/>
-                <FilmsList films={this.films}/>
+                <Header/>
+                <FilmsList films={this.props.movies.results} sortby={this.props.sortby}/>
                 <Footer />
             </div>
         );
     }
 }
 
-export default App;
+const mapStateToProps = (state) => {
+    return {
+        movies: state.movieReducer,
+        sortby: state.sortByReducer,
+        searchby: state.searchByReducer,
+        searchquery: state.searchQueryReducer
+    };
+};
+
+const mapDispatchToProps = (dispatch) => ({
+    setSortBy: (value) => {
+        dispatch(setSortBy(value));
+    },
+    getMovies: (query) => {
+        dispatch(getMovies(query));
+    }
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);

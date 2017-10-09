@@ -3,7 +3,7 @@ import Search from './search';
 import ResultContent from './resultcontent';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-const Header = ({films}) => {
+const Header = () => {
     return (
         <header className="container header">
             <div className="container header-wrapper">
@@ -12,7 +12,7 @@ const Header = ({films}) => {
                     <div>
                         <Route exact path="/" component={Search}/>
                         <Route path="/search" component={Search}/>
-                        <Route path="/film/" component={ResultContent}/>
+                        <Route path="/film/:filmid" component={ResultContent}/>
                     </div>
                 </Router>
             </div>
