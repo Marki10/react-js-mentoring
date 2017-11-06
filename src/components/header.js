@@ -2,6 +2,7 @@ import React from 'react';
 import Search from './search';
 import ResultContent from './resultcontent';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { connect } from "react-redux";
 
 const Header = () => {
     return (

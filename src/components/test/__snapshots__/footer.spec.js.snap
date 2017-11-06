@@ -1,0 +1,6 @@
+exports[`Footer Render footer 1`] = `
+<footer
+  className="container footer">
+  netflixroulette
+</footer>
+`;

@@ -1,0 +1,6 @@
+exports[`Not found Render not found page 1`] = `
+<section
+  className="container not-found">
+  Not Found
+</section>
+`;
